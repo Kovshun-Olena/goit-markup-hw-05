@@ -644,6 +644,7 @@ h1, h2, h3, h4, h5, h6, p {
         outline: transparent;
         transition: border-color 250ms 
         cubic-bezier(0.4, 0, 0.2, 1);
+        font-size: 12px;
 }
 
 .modal-textarea:hover,
@@ -657,7 +658,12 @@ h1, h2, h3, h4, h5, h6, p {
         line-height: 1.16;
         letter-spacing: 0.04em;
         color: rgba(46, 47, 66, 0.4);
-        transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);     
+        transition: border 250ms 
+        cubic-bezier(0.4, 0, 0.2, 1);     
+}
+
+.modal-con-checkbox {
+    margin-bottom: 24px;
 }
 
 .custom-checkbox {
@@ -669,11 +675,18 @@ h1, h2, h3, h4, h5, h6, p {
     justify-content: center;
     align-items: center;
     margin-right: 8px;
+    transition: background-color 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1), border 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1), fill 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1);
+    fill: transparent;
 }
 
 .checkbox:checked + .custom-lebal-checkbox > .custom-checkbox {
     border-color: transparent;
-    background-color: #4d5ae5;
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .custom-lebal-checkbox {
@@ -692,6 +705,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .modal-submit {
+    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
