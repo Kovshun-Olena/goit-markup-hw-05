@@ -582,6 +582,10 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 8px;
 }
 
+.form-wrraper-cont-comment {
+    margin-bottom: 16px;
+}
+
 .modal-form-label {
     font-weight: 400;
     font-size: 12px;
@@ -693,10 +697,11 @@ h1, h2, h3, h4, h5, h6, p {
     cursor: pointer;
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;  
 }
+
 .privacy-policy {
     line-height: 1.33333;
     text-decoration: underline;
