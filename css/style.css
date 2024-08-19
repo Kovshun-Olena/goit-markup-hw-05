@@ -454,8 +454,7 @@ h1, h2, h3, h4, h5, h6, p {
    
 .social-icon-f {
     width: 40px;
-    height: 40px;
-    
+    height: 40px;  
 }
     
 .social-link-footer-list {
@@ -479,7 +478,67 @@ h1, h2, h3, h4, h5, h6, p {
     fill: #f4f4fd;
 }
 
+.text-subscribe {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.subscribe-footer {
+    display: flex;
+}
+
+.subscribe-footer-label {
+    gap: 24px;
+}
+
+.subscribe-user-e-mail {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em;
+        color: #fff;
+        background-color: transparent;
+        padding-left: 16px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border: 1px solid #fff;
+        border-radius: 4px;
+        width: 264px;
+        height: 40px;
+}
+
+.button-subscribe {
+        border-radius: 4px;
+        padding: 8px 24px;
+        max-width: 165px;
+        height: 40px;
+        background-color: #4d5ae5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Roboto", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            text-align: center;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+}
+
+.button-subscribe-icon-send {
+    margin-left: 16px;
+    fill: #fff;
+}
+
+
 /*backdrop-modal*/
+
+/*<div class="backdrop is-open">*/
 
 .backdrop {
     background-color: rgba(46, 47, 66, 0.4);
@@ -497,8 +556,8 @@ h1, h2, h3, h4, h5, h6, p {
     pointer-events: none;
     transition: opacity 250ms 
     cubic-bezier(0.4, 0, 0.2, 1),
-        visibility 250ms 
-        cubic-bezier(0.4, 0, 0.2, 1);
+    visibility 250ms 
+    cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-open {
